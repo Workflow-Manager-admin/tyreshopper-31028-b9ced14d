@@ -83,6 +83,7 @@ body {
   font-weight: 600;
   line-height: 1.2;
   margin: 0;
+  color: var(--primary-color);
 }
 
 .description {
@@ -94,8 +95,8 @@ body {
 }
 
 .btn {
-  background-color: var(--base-light);
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--text-on-accent);
   border: none;
   border-radius: 4px;
   padding: 10px 20px;
@@ -106,7 +107,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #7691ff;
+  background-color: #ff9400;
 }
 
 .btn-large {
