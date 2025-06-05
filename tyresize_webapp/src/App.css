@@ -46,10 +46,11 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  color: var(--text-on-primary);
 }
 
 .logo-symbol {
-  color: var(--base-light);
+  color: var(--accent-color);
 }
 
 .container {
@@ -68,12 +69,13 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  background: var(--secondary-color);
 }
 
 .subtitle {
-  color: var(--base-light);
+  color: var(--accent-color);
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .title {
