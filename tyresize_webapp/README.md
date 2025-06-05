@@ -27,7 +27,17 @@ Launches the test runner in interactive watch mode.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Customization
+## API Integration Layer
+
+This app uses a modular API service architecture for all networks calls (product catalog, cart, auth, orders, reviews).
+
+- **API endpoint configuration:** Modify or set your base API in `src/apiConfig.js` (`API_BASE_URL`).
+- **Service files for features:** All API logic for key features is under `src/services/` (see e.g. `catalogService.js`, `cartService.js`, etc.)
+- **Generic request utility:** `src/apiClient.js` provides generic GET/POST utilities with error handling.
+
+### How to switch API endpoints
+
+Update `REACT_APP_API_BASE_URL` in your environment or edit `src/apiConfig.js`.
 
 ### Colors
 
